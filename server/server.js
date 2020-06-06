@@ -27,3 +27,5 @@ server.listen(port, (err) => {
     console.log(`Servidor corriendo en puerto ${ port }`);
 
 });
+
+let io = socketIO(server);
